@@ -2,4 +2,4 @@
 
 var exports = module.exports = {};
 
-exports.port = process.env.PORT || 3000;
+exports.port = process.env.PORT || 8080;

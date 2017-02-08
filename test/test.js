@@ -2,9 +2,7 @@
 
 var roast = require('roast.it');
 
-roast.it("Test's Test", function testTest(){
-	return true;
-});
+require('../blog-handler/blog-tests.js');
 
 roast.run();
 roast.exit();

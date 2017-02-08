@@ -4,7 +4,8 @@
   "description": "This is micro_blogging framework based on NodeJS, GIT and HTML/MARKDOWN.",
   "main": "server.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node test/test.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,7 @@
   "devDependencies": {
     "express": "^4.14.1",
     "marked": "^0.3.6",
+    "path": "^0.12.7",
     "roast.it": "^1.0.5"
   }
 }
-  
