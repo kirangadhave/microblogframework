@@ -1,0 +1,24 @@
+{
+  "name": "micro-blog",
+  "version": "1.0.0",
+  "description": "This is micro_blogging framework based on NodeJS, GIT and HTML/MARKDOWN.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirangadhave/microblogframework.git"
+  },
+  "author": "Kiran Gadhave",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirangadhave/microblogframework/issues"
+  },
+  "homepage": "https://github.com/kirangadhave/microblogframework#readme",
+  "devDependencies": {
+    "express": "^4.14.1",
+    "marked": "^0.3.6",
+    "roast.it": "^1.0.5"
+  }
+}
