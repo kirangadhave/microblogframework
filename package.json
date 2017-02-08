@@ -4,7 +4,7 @@
   "description": "This is micro_blogging framework based on NodeJS, GIT and HTML/MARKDOWN.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test.js"
   },
   "repository": {
     "type": "git",
@@ -22,3 +22,4 @@
     "roast.it": "^1.0.5"
   }
 }
+  
