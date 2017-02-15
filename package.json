@@ -4,7 +4,7 @@
   "description": "This is micro_blogging framework based on NodeJS, GIT and HTML/MARKDOWN.",
   "main": "server.js",
   "scripts": {
-    "test": "node test/test.js",
+    "test": "mocha --reporter --timeout 10000 spec",
     "start": "node server.js"
   },
   "repository": {
@@ -18,8 +18,12 @@
   },
   "homepage": "https://github.com/kirangadhave/microblogframework#readme",
   "devDependencies": {
+    "body-parser": "^1.16.0",
+    "chai": "^3.5.0",
     "express": "^4.14.1",
     "marked": "^0.3.6",
+    "mocha": "^3.2.0",
+    "mongoose": "^4.8.1",
     "path": "^0.12.7",
     "roast.it": "^1.0.5"
   }
